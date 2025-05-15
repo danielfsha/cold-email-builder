@@ -32,6 +32,8 @@ export default function EmailForm() {
       }),
     });
 
+    console.log(response);
+
     setSubject("");
     setRecipient([]);
     setBody("");
